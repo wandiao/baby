@@ -1,0 +1,28 @@
+# 依赖目录
+node_modules
+
+# 构建输出目录
+dist
+
+# 测试覆盖率目录
+coverage
+
+# 日志文件
+logs
+*.log
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+Thumbs.db

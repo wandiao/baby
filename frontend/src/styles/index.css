@@ -1,0 +1,37 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/preflight.css";
+@import "tailwindcss/utilities.css";
+
+@theme {
+  /* 主色调 - 柔雾薄荷蓝 */
+  --color-primary: #5FB8B0;
+  --color-primary-light: #80D8CC;
+  --color-primary-dark: #26A69A;
+  
+  /* 辅助色 */
+  --color-secondary: #80D8CC;
+  --color-secondary-light: #E6F7F3;
+  --color-secondary-dark: #26A69A;
+  
+  /* 强调色 */
+  --color-accent: #26A69A;
+  
+  /* 文字颜色 */
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #4A4A4A;
+  --color-text-tertiary: #7A7A7A;
+  
+  /* 背景颜色 */
+  --color-background: #FFFFFF;
+  --color-background-secondary: #F5F7FA;
+  --color-background-warm: #E6F7F3;
+  
+  /* 边框颜色 */
+  --color-border: #E6F7F3;
+  --color-border-light: #F0FDFA;
+  
+  /* 阴影 */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}

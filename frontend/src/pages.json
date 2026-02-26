@@ -1,0 +1,152 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+   {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "时光绘语",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "登录",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "个人中心",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/photo-caption/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "照片配文",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/photo-caption/history",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "照片配文历史",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/photo-caption/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "配文详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/story/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "睡前故事",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/story/history",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "睡前故事历史",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/story/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "故事详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/comic/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "四格漫画",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/comic/history",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "四格漫画历史",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/comic/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "漫画详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/video/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "视频创作",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/video/history",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "视频创作历史",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/video/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "视频详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    }
+  ],
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-pro/components/u-$1/u-$1.vue"
+    }
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#9E9E9E",
+    "selectedColor": "#26A69A",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
